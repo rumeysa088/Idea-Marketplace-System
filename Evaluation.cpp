@@ -80,6 +80,6 @@ void IdeaEvaluator::evaluateMyIdeas(Innovator* innovator) {
     cout << "\n=================================" << endl;
     cout << "Average Score: " << avgScore << "/10" << endl;
     cout << "Best Idea: " << bestIdea << " (" << bestScore << "/10)" << endl;
-    cout << "Innovator Level: " << evaluator.getUserLevel((int)avgScore) << endl;  // FIXED: use object
+    cout << "Innovator Level: " << evaluator.getUserLevel((int)avgScore) << endl;  
     cout << "=================================" << endl;
 }
