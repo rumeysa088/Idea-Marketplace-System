@@ -22,7 +22,7 @@ based on predefined criteria.
 </ul>
 <h2>Group Members</h2>
 <p>
-Name: Rumaisa Abbasi | Student ID: 25K-0585
+Name: Rumaisa Abbasi | Student ID: 25K-0585 <br>
 Name: Rahia Sarfraz | Student ID: 25K-0546
 </p>
 <hr>
