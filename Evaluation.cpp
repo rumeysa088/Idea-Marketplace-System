@@ -68,7 +68,7 @@ void IdeaEvaluator::evaluateMyIdeas(Innovator* innovator) {
         
         cout << "\nIdea: " << idea->getTitle() << endl;
         cout << "  Score: " << score << "/10" << endl;
-        cout << "  Level: " << evaluator.getUserLevel(score) << endl;  // FIXED: use object
+        cout << "  Level: " << evaluator.getUserLevel(score) << endl;  
         
         if (score > bestScore) {
             bestScore = score;
