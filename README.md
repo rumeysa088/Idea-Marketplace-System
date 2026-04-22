@@ -50,7 +50,7 @@ based on predefined criteria.
 g++ *.cpp -o main
 </pre>
 
-<h2>▶️ Run Instructions</h2>
+<h2> Run Instructions</h2>
 <pre>
 ./main
 </pre>
@@ -91,7 +91,7 @@ g++ *.cpp -o main
 
 <hr>
 
-<h2>📁 File Handling</h2>
+<h2> File Handling</h2>
 <p>The system uses text files to store persistent data:</p>
 <ul>
     <li><code>innovators.txt</code></li>
