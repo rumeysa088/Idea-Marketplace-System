@@ -12,7 +12,7 @@ in those ideas. It also includes an evaluation system that analyzes ideas and as
 based on predefined criteria.
 </p>
 
-<h2>🎯 Core OOP Concepts Used</h2>
+<h2> Core OOP Concepts Used</h2>
 <ul>
   <li><strong>Encapsulation:</strong> Data is protected using private members with getters/setters.</li>
   <li><strong>Inheritance:</strong> Innovator and Investor inherit from the User class.</li>
@@ -28,7 +28,7 @@ Name: Rahia Sarfraz | Student ID: 25K-0546
 </p>
 <hr>
 
-<h2>🔄 System Workflow (High-Level)</h2>
+<h2> System Workflow </h2>
 
 <ol>
   <li><strong>Initialization:</strong> The program starts and loads existing data from text files.</li>
