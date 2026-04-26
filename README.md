@@ -12,20 +12,35 @@ in those ideas. It also includes an evaluation system that analyzes ideas and as
 based on predefined criteria.
 </p>
 
-<p>This project demonstrates core Object-Oriented Programming (OOP) concepts such as:</p>
+<h2>🎯 Core OOP Concepts Used</h2>
 <ul>
-    <li>Inheritance</li>
-    <li>Polymorphism</li>
-    <li>Abstraction</li>
-    <li>Encapsulation</li>
-    <li>File Handling</li>
+  <li><strong>Encapsulation:</strong> Data is protected using private members with getters/setters.</li>
+  <li><strong>Inheritance:</strong> Innovator and Investor inherit from the User class.</li>
+  <li><strong>Polymorphism:</strong> Virtual functions like displayMenu() are overridden to provide role-specific behavior.</li>
+  <li><strong>Abstraction:</strong> The Evaluator class defines a general evaluation structure using pure virtual functions.</li>
+  <li><strong>File Handling:</strong> Persistent data storage is managed via text files to ensure data longevity.</li>
 </ul>
+
 <h2>Group Members</h2>
 <p>
 Name: Rumaisa Abbasi | Student ID: 25K-0585 <br>
 Name: Rahia Sarfraz | Student ID: 25K-0546
 </p>
 <hr>
+
+<h2>🔄 System Workflow (High-Level)</h2>
+
+<ol>
+  <li><strong>Initialization:</strong> The program starts and loads existing data from text files.</li>
+  <li><strong>Authentication:</strong> The user chooses to Sign Up or Login to access their specific dashboard.</li>
+  <li><strong>Role-Based Interaction:</strong>
+    <ul>
+      <li><strong>Innovator:</strong> Can post new ideas and trigger the evaluation engine.</li>
+      <li><strong>Investor:</strong> Can browse, filter, and show interest in various ideas.</li>
+    </ul>
+  </li>
+  <li><strong>Termination:</strong> Upon exiting the application, all data is automatically saved back to the files.</li>
+</ol>
 
 <h2> Use Cases </h2>
 
