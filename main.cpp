@@ -172,12 +172,12 @@ void loadAllData() {
     int tempMaxInnovators = MAX_INNOVATORS;  // Create a non-const copy
     int tempMaxInvestors = MAX_INVESTORS;    // Create a non-const copy
     
-    Innovator::loadInnovatorsFromFile(innovators, innovatorCount, tempMaxInnovators);
-    Investor::loadInvestorsFromFile(investors, investorCount, tempMaxInvestors);
+    Innovator::loadInnovatorsFromFile(innovators, innovatorCount, tempMaxInnovators); // load innovator data
+    Investor::loadInvestorsFromFile(investors, investorCount, tempMaxInvestors);    //load investor data
     
     Idea* allIdeas[100];
     int ideaCount = 0;
-    Idea::loadIdeasFromFile(allIdeas, ideaCount, 100);
+    Idea::loadIdeasFromFile(allIdeas, ideaCount, 100); //load ideas data
     
     for (int i = 0; i < ideaCount; i++) {
         string poster = allIdeas[i]->getPostedBy();

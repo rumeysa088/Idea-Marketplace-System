@@ -5,14 +5,14 @@
 #include <cstring>
 using namespace std;
 
-Investor::Investor() : User() {
+Investor::Investor() : User() {  //non parameterized constructor
     interestCount = 0;
     for (int i = 0; i < MAX_INTERESTS; i++) {
         myInterests[i] = nullptr;
     }
 }
 
-Investor::Investor(string uname, string pwd, string email) 
+Investor::Investor(string uname, string pwd, string email) //parameterized constructor
     : User(uname, pwd, email) {
     interestCount = 0;
     for (int i = 0; i < MAX_INTERESTS; i++) {
@@ -28,7 +28,7 @@ Investor::~Investor() {
     }
 }
 
-void Investor::displayMenu() {
+void Investor::displayMenu() {  
     int choice;
     do {
         cout << "\n========== INVESTOR MENU ==========" << endl;

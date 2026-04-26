@@ -10,7 +10,7 @@ using namespace std;
 class Innovator;
 
 // Abstract base class for Evaluation System (Abstraction)
-class Evaluator {
+class Evaluator {  
 public:
     virtual int evaluateIdea(Idea* idea) = 0;  // Pure virtual function
     virtual string getUserLevel(int score) = 0;
